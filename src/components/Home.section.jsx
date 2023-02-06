@@ -38,7 +38,7 @@ const Home = () => {
           <a className=" hover:text-gray-800" href="https://github.com/nevwizurai" target={"_blank"}>
             <FaGithubSquare />
           </a>
-          <a className=" hover:text-gray-800" href="www.linkedin.com/in/nevwizurai" target={"_blank"}>
+          <a className=" hover:text-gray-800" href="https://www.linkedin.com/in/nevwizurai" target={"_blank"}>
             <AiFillLinkedin />
           </a>
           <a
