@@ -3,7 +3,7 @@ import Home from "./components/Home.section";
 
 const App = () => {
   return (
-    <main>
+    <main className="px-5">
       <Home />
     </main>
   );
