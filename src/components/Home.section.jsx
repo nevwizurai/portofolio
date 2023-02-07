@@ -29,7 +29,7 @@ const Home = () => {
         </div>
 
         {/* Picture */}
-        <div className="w-5/6 mx-auto my-10 bg-gradient-to-br from-green-400 rounded-full overflow-hidden">
+        <div className="w-2/3 mx-auto my-10 bg-gradient-to-br from-green-400 rounded-full overflow-hidden">
           <img src={ImgMe} alt="my picture" className="max-w-full h-auto" />
         </div>
 
