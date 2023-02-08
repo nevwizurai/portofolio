@@ -5,7 +5,7 @@ import { AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <section className="mb-5">
+    <section className="bg-yellow-100">
       {/* Navbar */}
       <nav>
         <div className="flex justify-between items-center py-3 px-5">
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex  flex-col gap-y-5 mt-10 px-5">
+      <div className="flex  flex-col gap-y-5 mt-10">
         <h2 className="font-semibold text-xl underline text-center">A Little Bit About Myself</h2>
         <p className="leading-5 text-justify tracking-tight italic">
           My name is Nevir Wizurai Sabilillah, I am a frontend developer mostly proficient in React and tailwind, but I

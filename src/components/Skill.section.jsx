@@ -7,7 +7,7 @@ import { GrMysql } from "react-icons/gr";
 
 const Skill = () => {
   return (
-    <section className="px-5">
+    <section className="bg-blue-100">
       <div className="mb-3">
         <h2 className="font-medium text-lg leading-4">My Skills</h2>
         <small className="italic text-gray-500">Here's a brief lists of technologies I've used...</small>
@@ -69,7 +69,7 @@ const Skill = () => {
         </div>
 
         {/* Misc */}
-        <div className="border border-black p-2 rounded-lg">
+        <div className="border border-black p-1 rounded-lg">
           <div className="px-2 pb-1 font-medium text-lg">And other...</div>
           <div className="flex flex-wrap w-full justify-center mt-2">
             <span className="inline-block bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
