@@ -5,7 +5,7 @@ import { AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <section className="min-h-screen mb-5">
+    <section className="mb-5">
       {/* Navbar */}
       <nav>
         <div className="flex justify-between items-center py-3 px-5">
