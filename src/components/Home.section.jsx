@@ -5,10 +5,10 @@ import { AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <section className="bg-yellow-100">
+    <section>
       {/* Navbar */}
       <nav>
-        <div className="flex justify-between items-center py-3 px-5">
+        <div className="flex justify-between items-center py-3">
           <h1 className="font-caveat text-3xl font-bold">nevwizurai</h1>
           <a
             className="transition hover:scale-110 ease-linear bg-gradient-to-r hover:from-blue-700 from-cyan-500 to-yellow-300 px-2 py-1 rounded-lg text-white font-medium"

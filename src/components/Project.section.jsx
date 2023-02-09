@@ -37,19 +37,12 @@ const Project = () => {
     <section className="">
       <div className="mb-3">
         <h2 className="font-medium text-lg leading-4">My Projects</h2>
-        <small className="italic text-gray-500">My past and currently work-in-progress experience...</small>
+        <small className="italic text-gray-500">My past and currently work-in-progress projects...</small>
       </div>
 
       {/* Cards container */}
       <div>
-        <Carousel
-          responsive={responsive}
-          infinite={true}
-          autoPlay={true}
-          autoPlaySpeed={6000}
-          containerClass="carousel-container"
-          itemClass="carousel-item-padding-40-px"
-        >
+        <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={6000} showDots={true}>
           <Item
             image={img1}
             name="Etch-a-Sketch"

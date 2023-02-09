@@ -11,7 +11,7 @@ const Contact = () => {
         <small className="italic text-gray-500 leading-1">Send me an email to get in touch...</small>
       </div>
 
-      <div className="px-5">
+      <div className="">
         <label className="block" htmlFor="subject">
           Subject
         </label>

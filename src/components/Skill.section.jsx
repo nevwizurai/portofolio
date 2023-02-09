@@ -7,7 +7,7 @@ import { GrMysql } from "react-icons/gr";
 
 const Skill = () => {
   return (
-    <section className="bg-blue-100">
+    <section>
       <div className="mb-3">
         <h2 className="font-medium text-lg leading-4">My Skills</h2>
         <small className="italic text-gray-500">Here's a brief lists of technologies I've used...</small>

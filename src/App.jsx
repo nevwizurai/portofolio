@@ -6,7 +6,7 @@ import Skill from "./components/Skill.section";
 
 const App = () => {
   return (
-    <main className="flex flex-col gap-y-10 px-5">
+    <main className="flex flex-col gap-y-10">
       <Home />
       <Skill />
       <Project />
