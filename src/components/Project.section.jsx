@@ -1,11 +1,36 @@
 import React from "react";
 import { AiOutlineEye, AiOutlineGithub } from "react-icons/ai";
 import { CgSandClock } from "react-icons/cg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 import img1 from "../img/project/etch_a_sketch.jpg";
 import img2 from "../img/project/rock_paper_scissor.jpg";
 import img3 from "../img/project/landing_page.jpg";
 import img4 from "../img/project/student_management.jpg";
+
+const responsive = {
+  "2xl": {
+    breakpoint: { max: 2560, min: 1536 },
+    items: 4,
+  },
+  xl: {
+    breakpoint: { max: 1536, min: 1280 },
+    items: 3,
+  },
+  lg: {
+    breakpoint: { max: 1280, min: 1024 },
+    items: 3,
+  },
+  md: {
+    breakpoint: { max: 1024, min: 768 },
+    items: 2,
+  },
+  sm: {
+    breakpoint: { max: 768, min: 320 },
+    items: 1,
+  },
+};
 
 const Project = () => {
   return (
@@ -17,31 +42,44 @@ const Project = () => {
 
       {/* Cards container */}
       <div>
-        <Item
-          image={img1}
-          name="Etch-a-Sketch"
-          desc="A miniature of etch-a-sketch game that lets user draw in a pixel-like layout"
-          repo_link={"https://github.com/nevwizurai/Etch-a-Sketch"}
-          live_link={"https://nevwizurai.github.io/Etch-a-Sketch"}
-          finished
-        />
-        <Item
-          image={img2}
-          name="Rock, Paper, Scissor"
-          desc="Play rock paper scissor against computer with this Javascript-based game"
-          repo_link={"https://github.com/nevwizurai/rock_paper_scissor"}
-          live_link={"https://nevwizurai.github.io/rock_paper_scissor"}
-          finished
-        />
-        <Item
-          image={img3}
-          name="Landing Page"
-          desc="A landing page website made using plain HTML, and CSS"
-          repo_link={"https://github.com/nevwizurai/landing_page"}
-          live_link={"https://nevwizurai.github.io/landing_page"}
-          finished
-        />
-        <Item image={img4} name="Student Management" desc="Crud application to manage students data using MERN stack" />
+        <Carousel
+          responsive={responsive}
+          infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={6000}
+          containerClass="carousel-container"
+          itemClass="carousel-item-padding-40-px"
+        >
+          <Item
+            image={img1}
+            name="Etch-a-Sketch"
+            desc="A miniature of etch-a-sketch game that lets user draw in a pixel-like layout"
+            repo_link={"https://github.com/nevwizurai/Etch-a-Sketch"}
+            live_link={"https://nevwizurai.github.io/Etch-a-Sketch"}
+            finished
+          />
+          <Item
+            image={img2}
+            name="Rock, Paper, Scissor"
+            desc="Play rock paper scissor against computer with this Javascript-based game"
+            repo_link={"https://github.com/nevwizurai/rock_paper_scissor"}
+            live_link={"https://nevwizurai.github.io/rock_paper_scissor"}
+            finished
+          />
+          <Item
+            image={img3}
+            name="Landing Page"
+            desc="A landing page website made using plain HTML, and CSS"
+            repo_link={"https://github.com/nevwizurai/landing_page"}
+            live_link={"https://nevwizurai.github.io/landing_page"}
+            finished
+          />
+          <Item
+            image={img4}
+            name="Student Management"
+            desc="Crud application to manage students data using MERN stack"
+          />
+        </Carousel>
       </div>
     </section>
   );
