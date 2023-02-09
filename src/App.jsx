@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./components/Contact.section";
 import Home from "./components/Home.section";
 import Project from "./components/Project.section";
 import Skill from "./components/Skill.section";
@@ -9,6 +10,7 @@ const App = () => {
       <Home />
       <Skill />
       <Project />
+      <Contact />
     </main>
   );
 };
