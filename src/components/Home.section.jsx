@@ -2,6 +2,7 @@ import React from "react";
 import ImgMe from "../img/me.jpg";
 import { FaGithubSquare } from "react-icons/fa";
 import { AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
+import pdf from "../files/nevwizurai_resume_compressed.pdf";
 
 const Home = () => {
   return (
@@ -11,10 +12,11 @@ const Home = () => {
         <div className="flex justify-between items-center py-3">
           <h1 className="font-caveat text-3xl font-bold">nevwizurai</h1>
           <a
-            className="transition hover:scale-110 ease-linear bg-gradient-to-r hover:from-blue-700 from-cyan-500 to-yellow-300 px-2 py-1 rounded-lg text-white font-medium"
-            href="#"
+            className="transition hover:scale-110 ease-linear bg-green-500 hover:bg-green-700 px-2 py-1 rounded-lg text-white font-medium"
+            href={pdf}
+            target="_blank"
           >
-            My CV
+            My Resume
           </a>
         </div>
       </nav>
