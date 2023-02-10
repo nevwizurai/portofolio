@@ -29,7 +29,7 @@ const Home = () => {
           <div className="text-center mb-5">
             <small className="text-sm text-gray-500 italic">Hello, my name is</small>
             <h2 className="text-xl font-bold leading-7">Nevir Wizurai Sabilillah</h2>
-            <p className="text-sm text-gray-500">Frontend developer</p>
+            <p className="text-sm text-gray-500">Frontend Developer</p>
           </div>
 
           {/* Picture */}
